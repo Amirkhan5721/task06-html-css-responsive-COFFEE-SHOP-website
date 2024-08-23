@@ -1,0 +1,23 @@
+@media (max-width: 1030px) {
+
+    /*Home section*/
+     .home-text {
+         margin-top: 35vh;       
+     }
+     
+     .home-text h1{
+         font-size: 45px;
+         transition: all ease-out 2s;
+     }
+ 
+     /*Coffee Section*/
+     #coffee{
+         margin-top: 280px;
+     }
+     .beons-section {
+         flex-wrap: wrap;
+     }
+     .beons-box {
+         margin: 20px 0;
+     }
+ }
