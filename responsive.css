@@ -123,4 +123,29 @@
 
 }
 
+@media (max-width: 405px) {
+ 
+    nav {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    nav a {
 
+        font-weight: bold;
+    }
+
+    .home-text button {
+        margin-top: 25px;
+        margin-left: 40px;
+        border: 1px solid #fff;
+    }
+    .footer-box p {
+        color: #ddc8c8;
+    }
+    .footer-box img{
+        width: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+        background-color: #ddc8c8;
+    }
+}
