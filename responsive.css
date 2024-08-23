@@ -21,3 +21,27 @@
          margin: 20px 0;
      }
  }
+ @media (max-width: 935px) {
+ 
+    .home-text {
+        margin-top: 30vh;       
+    }
+    
+    .home-text h1{
+        font-size: 35px;
+    }
+
+     /*Coffee Section*/
+     #coffee{
+        margin-top: 250px;
+    }
+
+    /*Cold Coffee Section*/
+    .cold-coffee-section {
+        flex-wrap: wrap;
+    }
+    .cold-coffee-box {
+        margin: 20px 0;
+    }
+}
+
