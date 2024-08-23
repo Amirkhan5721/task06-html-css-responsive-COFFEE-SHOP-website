@@ -66,5 +66,61 @@
         margin: 20px 0;
     }
 }
+@media (max-width: 480px) {
+ 
+    .logo {
+        margin-top: 5px;
+    }
+    .logo img {
+        width: 52px;
+    }
+    nav {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    nav a {
+
+        font-weight: bold;
+    }
+
+    /*Home Section style*/
+    
+.home-text {
+    margin-top: 10vh;
+    margin-left: 50px;
+}
+.home-text h1{
+    font-size: 20px;
+ 
+}
+.home-text p {
+    margin-left: 12px;
+    font-size: 8px;
+}
+.home-text button {
+    margin-top: 25px;
+    margin-left: 40px;
+    border: 1px solid #a38f8f;
+}
+#coffee{
+    margin-top: 120px;
+}
+
+.img-2 {
+    margin-top: 40px;
+    display: block;
+}
+.img-2 img {
+    background-position: center;
+    width: 100%;
+    mix-blend-mode:darken;
+    height: 200px;
+    border-radius: 2%;
+}
+.img-2 p {
+    margin-top: 4vh;
+}
+
+}
 
 
