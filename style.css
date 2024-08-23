@@ -182,3 +182,40 @@ a:hover {
     text-align: center;
     margin-top: 7px;
 }
+/*Beons Section*/
+/*h2 id beons*/
+#beons {
+    margin-top: 10vh;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(123, 111, 89);
+}
+.beons-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.beons-box {
+    width: 250px;
+    height: 250px;
+    border: none;
+    background: linear-gradient rgba(85, 76, 69, 0.395),rgba(196, 151, 87, 0.395);
+    box-shadow: 2px 2px 5px 5px rgba(123, 111, 89,0.395);
+    border-radius: 12px;
+    transition: 1s ease;
+}
+.beons-box:hover {
+    background-color: rgb(187, 179, 171);
+}
+.beons-box img {
+    width: 100px;
+    position: relative;
+    top: -25px;
+    left: 75px;
+    mix-blend-mode: darken;
+    border-radius: 12px;
+}
+.beons-box h3,p {
+    text-align: center;
+    color: rgb(123, 111, 89);
+}
