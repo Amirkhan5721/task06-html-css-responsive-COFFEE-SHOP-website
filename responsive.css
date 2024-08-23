@@ -66,6 +66,21 @@
         margin: 20px 0;
     }
 }
+
+@media (max-width: 620px) {
+    .home-text {
+        margin-top: 15vh;       
+    }
+    
+    .home-text h1{
+        font-size: 35px;
+    }
+
+     /*Coffee Section*/
+     #coffee{
+        margin-top: 170px;
+    }
+}
 @media (max-width: 480px) {
  
     .logo {
