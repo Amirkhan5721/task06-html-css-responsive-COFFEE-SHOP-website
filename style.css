@@ -219,3 +219,29 @@ a:hover {
     text-align: center;
     color: rgb(123, 111, 89);
 }
+/*Footer Section*/
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(rgba(0,0,0,0.495),rgba(0,0,0,0.495));
+    /* background-color: rgb(46, 42, 42); */
+}
+.footer-box {
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid #fff; */
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    line-height: 2;
+}
+.footer-box p {
+    color: #fff;
+}
+.footer-box img{
+    width: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
