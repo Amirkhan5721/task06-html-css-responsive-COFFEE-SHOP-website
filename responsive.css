@@ -45,3 +45,26 @@
     }
 }
 
+@media (max-width: 768px) {
+ 
+    .home-text {
+        margin-top: 30vh;       
+    }
+    
+    .home-text h1{
+        font-size: 35px;
+    }
+
+     /*Coffee Section*/
+     #coffee{
+        margin-top: 170px;
+    }
+    .coffee-section {
+        flex-wrap: wrap;   
+    }
+    .coffee-box {
+        margin: 20px 0;
+    }
+}
+
+
