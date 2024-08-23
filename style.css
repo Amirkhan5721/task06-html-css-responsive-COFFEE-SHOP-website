@@ -96,4 +96,64 @@ a:hover {
     color: #fff;
     border: none;
 }
+/*Coffee Section*/
+#coffee{
+    margin-top: 320px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(123, 111, 89);
+}
+.coffee-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
 
+}
+.coffee-box {
+    width: 250px;
+    height: 320px;
+    border: none;
+    background: linear-gradient rgba(85, 76, 69, 0.395),rgba(196, 151, 87, 0.395);
+    box-shadow: 2px 2px 5px 5px rgba(123, 111, 89,0.395);
+    border-radius: 12px;
+}
+.coffee-box img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+.coffee-box h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.coffee-box p {
+    text-align: center;
+    color: #fff;
+    margin-top: 8px;
+}
+.coffee-box h4 {
+    text-align: center;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.img-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-2 img {
+    background-position: center;
+    width: 400px;
+    mix-blend-mode:darken;
+    height: 200px;
+    /* border-radius: 50%; */
+}
+.img-2 p {
+    color: rgb(98, 70, 50);
+    margin-top: 12vh;
+}
