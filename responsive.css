@@ -1,5 +1,5 @@
-@media (max-width: 1225px) {
-    /*Home section*/
+@media (max-width: 1302px) {
+    Home section
     .home-text {
         margin-top: 35vh;       
     }
@@ -8,16 +8,21 @@
         font-size: 45px;
     }
 
-    /*Coffee Section*/
+    /* Coffee Section */
     #coffee{
-        margin-top: 280px;
+        margin-top: 300px;
     }    
 }
 
 
+
 @media (max-width: 1030px) {
 
+
     /*Home section*/
+    .home .image img{
+        height: 65vh;
+    }
      .home-text {
          margin-top: 35vh;       
      }
@@ -29,7 +34,7 @@
  
      /*Coffee Section*/
      #coffee{
-         margin-top: 280px;
+         margin-top: 210px;
      }
      .beons-section {
          flex-wrap: wrap;
@@ -50,7 +55,7 @@
 
      /*Coffee Section*/
      #coffee{
-        margin-top: 250px;
+        margin-top: 130px;
     }
 
     /*Cold Coffee Section*/
@@ -63,6 +68,12 @@
 }
 
 @media (max-width: 768px) {
+
+    
+    /*Home section*/
+    .home .image img{
+        height: 55vh;
+    }
  
     .home-text {
         margin-top: 30vh;       
@@ -74,7 +85,7 @@
 
      /*Coffee Section*/
      #coffee{
-        margin-top: 170px;
+        margin-top: 100px;
     }
     .coffee-section {
         flex-wrap: wrap;   
@@ -85,6 +96,12 @@
 }
 
 @media (max-width: 620px) {
+
+    
+    /*Home section*/
+    .home .image img{
+        height: 40vh;
+    }
     .home-text {
         margin-top: 15vh;       
     }
@@ -95,10 +112,16 @@
 
      /*Coffee Section*/
      #coffee{
-        margin-top: 170px;
+        margin-top: 100px;
     }
 }
 @media (max-width: 480px) {
+
+    
+    /*Home section*/
+    .home .image img{
+        height: 30vh;
+    }
  
     .logo {
         margin-top: 5px;
@@ -170,6 +193,7 @@
         margin-top: 25px;
         margin-left: 40px;
         border: 1px solid #fff;
+        padding: 5px 5px;
     }
     .footer-box p {
         color: #ddc8c8;
