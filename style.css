@@ -36,10 +36,10 @@ nav a {
     padding: 5px 12px;
     color: rgb(217, 205, 205);
     border-radius: 4px;
-    transition: all linear 1s;
+    transition: 1s ease;
 }
 a:hover {
-    background-color: green;
+    background-color: rgb(61, 81, 61);
 }
 
 /*Home Section style*/
@@ -182,10 +182,12 @@ a:hover {
 }
 .cold-coffee-box:hover {
     background-color: rgb(187, 179, 171);
+    border: 5px solid rgb(187, 179, 171);
 }
 .cold-coffee-box img {
     width: 220px;
     height: 210px;
+    mix-blend-mode: darken;
 }
 .cold-coffee-box h4 {
     text-align: center;
